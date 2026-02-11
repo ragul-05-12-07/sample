@@ -1,0 +1,47 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #fdfbfb, #ebedee);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Main Heading */
+h1:first-of-type {
+    text-align: center;
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+/* Section Headings */
+h1:not(:first-of-type) {
+    color: #2c7a7b;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-left: 5px solid #38ef7d;
+    padding-left: 10px;
+}
+
+/* Paragraph Styling */
+p {
+    text-align: center;
+    margin: 15px auto;
+    max-width: 800px;
+    font-size: 16px;
+}
+
+/* Image Styling */
+.profile-img {
+    display: block;
+    margin: 20px auto;
